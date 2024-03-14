@@ -6,58 +6,61 @@ body{
     margin: 0px;
     padding: 0px;
     height: 1500px;
+    font-family: "Rubik", --apple-system;
 }
 
 .navbar{
     font-family: "Rubik", --apple-system;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
     background-color: #3098f3;
+    display: flex;
+    padding: 30px;
+    font-size: 25px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
     z-index: 1000;
+}
+
+.RM4{
+    padding-left: 160px;
+}
+
+.RNBs{
+    padding: 0px 30px;
+}
+
+.RM4 a{
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.RNBs a{
+    color: #ffffff;
+}
+
+.RNBs a:link,.RNBs a:visited{
+    text-decoration: none;
+}
+
+.RNBs a:hover,.RNBs a:active{
+    text-decoration: underline;
+}
+
+#navleft{
+    margin-left: auto;
+}
+
+#navright{
+    padding-right: 200px;
 }
 
 .top{
     background-color: #3098f3;
     margin: 0px;
     color: #ffffff;
-    overflow: auto;
-    font-family: "Rubik", --apple-system;
     height: 600px;
     padding-top: 120px;
-}
-
-.navlist{
-    margin-top: 0px;
-    list-style: none;
-    padding: 30px;
-    font-size: 23px;
-    padding-right: 200px;
-    font-size: 25px;
-}
-
-.RM4{
-    text-decoration: none;
-    float: left;
-    padding-left: 160px;
-    color: #ffffff;
-    font-weight: 700;
-    
-}
-
-.RNBs{
-    float: right;
-    padding: 0px 30px;
-    color: #ffffff;
-}
-
-.RNBs:link,.RNBs:visited{
-    text-decoration: none;
-}
-
-.RNBs:hover,.RNBs:active{
-    text-decoration: underline;
 }
 
 .firstcontent{
